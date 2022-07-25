@@ -1,6 +1,6 @@
 [TOC]
 
-### 1. Docker Compose 配置
+### 一、 Docker Compose 配置
 
 Compose是官方的开源项目，需要安装。Dockerfile 让程序在任何地方运行。
 
@@ -46,7 +46,7 @@ Docker Compose会将整个项目所依赖的镜像串联起来，包括启动镜
 
 
 
-### 2. docker-compose.yml 文件
+### 二、docker-compose.yml 文件
 
 docker-compose.yml 文件一共有三层，version、services、networks。
 
@@ -68,7 +68,7 @@ networks:
 
 
 
-### 3. <span id='error'>错误提示</span>
+### 三、<span color='red'>错误提示</span>
 
 1、-bash: /usr/local/bin/docker-compose: Permission denied
 
