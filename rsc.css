@@ -1,0 +1,109 @@
+/* RSC CSS */
+/* by syd */
+
+body {
+     /* background-color: #fbfbfb; */
+     /* color: #0d0d0d; */
+     /* font-family: "宋体"; */
+     font-family: Hack;
+     /* font-weight: bold; */
+     text-decoration-skip: none;
+     text-align: justify;
+}
+
+h1 {
+     font-weight: bold;
+     font-size: 27px;
+     padding-top: 1em;
+}
+
+h2 {
+     font-weight: bold;
+     font-size: 25px;
+     padding-top: 1em;
+}
+
+h3 {
+     font-weight: bold;
+     font-size: 22px;
+     padding-top: 0.7em;
+}
+
+ h5, h6 {
+     font-size: 19px;
+}
+
+p, li, .footnote-line {
+     font-size: 17px;
+}
+
+ h1 {
+     text-transform: uppercase;
+     text-align: center;
+}
+
+ /* h2, h3, em, th, .cm-keyword {
+     text-decoration: underline;
+} */
+
+ blockquote, strong {
+     font-weight: bold;
+     color: darkblue
+}
+
+ blockquote {
+     margin-left: 30px;
+     margin-right: 30px
+}
+
+a, .footnote-line {
+     color: #333;
+}
+
+ em, strong {
+     font-style: normal;
+}
+ ul {
+     list-style-type: square
+}
+
+ #write {
+     max-width: 65em
+}
+
+ #footer p {
+     border-top: 2px solid #333;
+     margin-top: 10px;
+}
+
+/* Codes */
+ .cm-s-inner {
+     font-size: 15px;
+     font-family: monospace;
+     margin-left: 4em;
+     margin-right: 4em;
+     margin-bottom: 3em;
+}
+ /* .cm-s-inner * {
+     color: #585758 !important ;
+     white-space: preserve;
+     word-wrap: nowrap;
+} */
+
+/* Numbering */
+ h1 {
+     counter-reset: h2 
+}
+ h2 {
+     counter-reset: h3 
+}
+
+ /* #write h2:before {
+     counter-increment: h2;
+     content: counter(h2) ". " 
+}
+ #write h3:before {
+     counter-increment: h3;
+     content: counter(h2) "." counter(h3) ". " 
+} */
+ 
